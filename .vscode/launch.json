@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GestionTareasApplication<gestion-tareas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.yers4.gestion_tareas.GestionTareasApplication",
+            "projectName": "gestion-tareas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

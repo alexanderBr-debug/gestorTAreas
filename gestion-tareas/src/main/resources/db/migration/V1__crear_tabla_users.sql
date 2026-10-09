@@ -1,0 +1,7 @@
+CREATE TABLE tb_users(
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    password VARCHAR(100) NOT NULL,
+    rol VARCHAR(10) NOT NULL
+);
